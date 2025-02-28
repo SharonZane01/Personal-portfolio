@@ -95,7 +95,7 @@
         <div class="content">
             <div class="column col-left reveal">
                 <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-                    <img loading="lazy" src="Image/img1.jpg" alt="image">
+                    <img loading="lazy" src="Image/img1.jpg" alt="profile-picture">
                 </div>
             </div>
             <div class="column col-right reveal">
@@ -344,11 +344,11 @@
     </footer>
 
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script defer>
         AOS.init({ offset: 0 });
     </script>
-    <script>
+    <script defer>
 
         window.addEventListener("scroll", function () {
             scrollBtn.classList.toggle("active", window.scrollY > 500);
